@@ -33,7 +33,8 @@ def proof_of_vector_embedding(block, nodes, shared_storage):
 ## Running the MPI Program
 Start the VDB service: Ensure your VDB (DVD) service is running and accessible.
 
-mpiexec -n <number_of_nodes> python emulator.py, Here `number_of_nodes` indicates the size of the blockchain network.
+**Add vector object:** mpiexec -n <number_of_nodes> python emulator.py, Here `number_of_nodes` indicates the size of the blockchain network.
+**Query vector object:** mpiexec -n <number_of_nodes> python emulator_query.py
 
 ## Verification
 VDB Interface: Check the VDB interface at http://localhost:8080 to ensure the data is being added.
