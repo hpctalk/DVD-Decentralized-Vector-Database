@@ -14,9 +14,8 @@
   - `numpy`
   - A library for your VDB (assuming it is `dvd` in your case).
 
-Install required Python packages:
+**Install required Python packages:**
 
-```sh
 pip install numpy requests mpi4py
 
 ## VDB Setup
@@ -33,8 +32,6 @@ def proof_of_vector_embedding(block, nodes, shared_storage):
 
 ## Running the MPI Program
 Start the VDB service: Ensure your VDB (DVD) service is running and accessible.
-
-Run the MPI program:
 mpiexec -n 4 python emulator.py
 
 ## Verification
