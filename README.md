@@ -29,6 +29,7 @@ def proof_of_vector_embedding(block, nodes, shared_storage):
     pass
 
 **emulator.py:** The Emulator should be called for processing the vector data
+**emulator_query.py:** The Emulator should be called for querying the vector data
 
 ## Running the MPI Program
 Start the VDB service: Ensure your VDB (DVD) service is running and accessible.
