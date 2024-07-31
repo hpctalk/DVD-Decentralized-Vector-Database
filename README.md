@@ -41,5 +41,7 @@ Results: Verify the results from the MPI processes and the data in the VDB
 
 ## Notes:
 **In-memory Caching:** Each MPI node caches up to 200 blocks of vector data locally. Adjust the batch size as needed.
+
 **Shared Storage:** Shared storage is emulated using a JSON file (shared_blockchain.json) where the blockchain data is saved. This file can be accessed and shared among all nodes.
+
 **Vector-Database**: The blockchain database is saved to shared_blockchain.json. This file can be found in the directory where the script is run. To distribute this file among nodes in a real-world scenario, consider using a distributed file system or a shared network drive.
