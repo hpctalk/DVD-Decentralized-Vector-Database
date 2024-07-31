@@ -34,6 +34,7 @@ def proof_of_vector_embedding(block, nodes, shared_storage):
 Start the VDB service: Ensure your VDB (DVD) service is running and accessible.
 
 **Add vector object:** mpiexec -n <number_of_nodes> python emulator.py, Here `number_of_nodes` indicates the size of the blockchain network.
+
 **Query vector object:** mpiexec -n <number_of_nodes> python emulator_query.py
 
 ## Verification
