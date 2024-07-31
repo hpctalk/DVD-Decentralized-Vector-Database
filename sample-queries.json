@@ -1,0 +1,42 @@
+[
+    {
+        "fossilFuelandIndustry": 0.5,
+        "landUseChangeEmissions": 0.3,
+        "atmosphericGrowth": 0.7,
+        "oceanSink": 0.4,
+        "landSink": 0.2,
+        "budgetImbalance": 0.6
+    },
+    {
+        "fossilFuelandIndustry": 0.6,
+        "landUseChangeEmissions": 0.1,
+        "atmosphericGrowth": 0.8,
+        "oceanSink": 0.5,
+        "landSink": 0.3,
+        "budgetImbalance": 0.7
+    },
+    {
+        "fossilFuelandIndustry": 0.4,
+        "landUseChangeEmissions": 0.2,
+        "atmosphericGrowth": 0.6,
+        "oceanSink": 0.3,
+        "landSink": 0.4,
+        "budgetImbalance": 0.5
+    },
+    {
+        "fossilFuelandIndustry": 0.7,
+        "landUseChangeEmissions": 0.4,
+        "atmosphericGrowth": 0.5,
+        "oceanSink": 0.6,
+        "landSink": 0.3,
+        "budgetImbalance": 0.8
+    },
+    {
+        "fossilFuelandIndustry": 0.3,
+        "landUseChangeEmissions": 0.5,
+        "atmosphericGrowth": 0.4,
+        "oceanSink": 0.2,
+        "landSink": 0.7,
+        "budgetImbalance": 0.6
+    }
+]
