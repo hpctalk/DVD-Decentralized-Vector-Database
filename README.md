@@ -12,7 +12,8 @@
   - `requests`
   - `mpi4py`
   - `numpy`
-  - A library for your VDB (assuming it is `dvd` in your case).
+  - `weaveate`
+  - A library for your vector database (assuming it is `dvd` in your case).
 
 **Install required Python packages:**
 
