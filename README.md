@@ -1,7 +1,7 @@
-# DVD-Decentralized-Vector-Database
-# Vector DB and Blockchain Setup with MPI
+# DVD-Decentralized-Vector-Database powered by high-performance blockchain protocol
+## Quick Start
 
-## Prerequisites
+### Prerequisites
 
 - **Python 3.0 or later**
 - **MPI**: Ensure `mpiexec` is available (part of an MPI implementation).
@@ -18,7 +18,7 @@
 
 pip install numpy requests mpi4py
 
-## VDB Setup
+### DVD Setup
 Ensure your VDB (DVD) service is running and accessible. You can run this service directly on your machine or use a cloud-based service.
 
 
@@ -32,18 +32,18 @@ def proof_of_vector_embedding(block, nodes, shared_storage):
 
 **emulator_query.py:** The Emulator should be called for querying the vector data
 
-## Running the MPI Program
+### Running the MPI Program
 Start the VDB service: Ensure your VDB (DVD) service is running and accessible.
 
 **Add vector object:** mpiexec -n <number_of_nodes> python emulator.py, Here `number_of_nodes` indicates the size of the blockchain network.
 
 **Query vector object:** mpiexec -n <number_of_nodes> python emulator_query.py
 
-## Verification
+### Verification
 VDB Interface: Check the VDB interface at http://localhost:8080 to ensure the data is being added.
 Results: Verify the results from the MPI processes and the data in the VDB
 
-## Notes:
+### Notes:
 **In-memory Caching:** Each MPI node caches up to 200 blocks of vector data locally. Adjust the batch size as needed.
 
 **Shared Storage:** Shared storage is emulated using a JSON file (shared_blockchain.json) where the blockchain data is saved. This file can be accessed and shared among all nodes.
