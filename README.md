@@ -1,4 +1,4 @@
-# DVD-Decentralized-Vector-Database powered by high-performance blockchain protocol
+# DVD-Decentralized-Vector-Database powered by high-performance blockchain protocol for reliable scientific computing
 ## Quick Start
 
 ### Prerequisites
