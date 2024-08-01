@@ -1,0 +1,20 @@
+version: '3'
+services:
+  dvd:
+    build: .
+    container_name: dvd_service
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+    environment:
+      - MPI_NP=100
+
+  dvd_query:
+    build: .
+    container_name: dvd_service
+    depends_on:
+      - dvd
+    command: ["mpiexec", "-n", "100", "python", "emulator.py"]
+    volumes:
+      - .:/app
