@@ -89,7 +89,7 @@ Query Vector Object: docker-compose run dvd_query mpiexec -n <number_of_nodes> p
 Replace <number_of_nodes> with the desired number of MPI nodes.
 
 ### Verification
-VDB Interface: Check the DVD interface at http://localhost:8080 to ensure the data is being added.
+DVD Interface: Check the DVD interface at http://localhost:8080 to ensure the data is being added.
 Results: Verify the results from the MPI processes and the data in the VDB
 
 ### Notes:
