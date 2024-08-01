@@ -20,7 +20,7 @@
 pip install numpy requests mpi4py
 
 ### DVD Setup
-Ensure your VDB (DVD) service is running and accessible. You can run this service directly on your machine or use a cloud-based service.
+Ensure your vector database (DVD) service is running and accessible. You can run this service directly on your machine, on a HPC cluster or use a cloud-based service.
 
 
 **proof_of_vector_embedding.py**
